@@ -1,4 +1,5 @@
 import Icon from "@ant-design/icons";
+import React from "react";
 
 const BikeWhiteSVG: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <svg

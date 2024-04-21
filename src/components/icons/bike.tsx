@@ -1,3 +1,5 @@
+import React from "react";
+
 export const BikeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <svg
         width="41"

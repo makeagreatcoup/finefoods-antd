@@ -10,7 +10,7 @@ import {
     RecentOrders,
     TrendingMenu,
 } from "../../components";
-
+import React from "react";
 const { Text } = Typography;
 
 export const DashboardPage: React.FC = () => {

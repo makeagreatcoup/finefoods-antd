@@ -13,7 +13,7 @@ import {
 } from "@refinedev/antd";
 import { FormOutlined, MoreOutlined } from "@ant-design/icons";
 import { Table, Dropdown, Menu, Avatar } from "antd";
-
+import React from "react";
 import { StoreProducts } from "../../components/store";
 import { IStore } from "../../interfaces";
 

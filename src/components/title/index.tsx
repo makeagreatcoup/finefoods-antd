@@ -3,7 +3,7 @@ import { theme } from "antd";
 
 import { BikeWhiteIcon, FineFoodsIcon } from "../../components";
 import { Logo } from "./styled";
-
+import React from "react";
 const { useToken } = theme;
 
 type TitleProps = {

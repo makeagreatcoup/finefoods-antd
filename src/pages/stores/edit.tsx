@@ -12,7 +12,7 @@ import {
     InputProps,
 } from "antd";
 import InputMask from "react-input-mask";
-
+import React from "react";
 import { IStore } from "../../interfaces";
 
 const { Text } = Typography;

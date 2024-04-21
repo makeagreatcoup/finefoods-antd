@@ -16,7 +16,7 @@ import {
     Upload,
     Grid,
 } from "antd";
-
+import React from "react";
 import { ICategory } from "../../interfaces";
 
 const { Text } = Typography;

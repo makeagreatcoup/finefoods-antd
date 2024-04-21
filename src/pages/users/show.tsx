@@ -4,6 +4,7 @@ import {
     IResourceComponentsProps,
     useTranslate,
 } from "@refinedev/core";
+import React from "react";
 import {
     useTable,
     List,

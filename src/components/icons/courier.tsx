@@ -1,3 +1,4 @@
+import React from "react";
 export const CourierIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <svg
         width="68"
