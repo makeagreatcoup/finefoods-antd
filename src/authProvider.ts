@@ -83,8 +83,8 @@ export const authProvider: AuthBindings = {
 
         return {
             id: 1,
-            name: "James Sullivan",
-            avatar: "https://i.pravatar.cc/150",
+            name: "张三",
+            avatar: "/images/admin.jpg",
         };
     },
 };

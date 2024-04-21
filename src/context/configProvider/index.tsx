@@ -6,6 +6,7 @@ import {
     useState,
 } from "react";
 import { ConfigProvider as AntdConfigProvider, theme } from "antd";
+import React from "react";
 
 type Mode = "light" | "dark";
 

@@ -392,5 +392,10 @@
             "addresses": "Addresses",
             "address": "Address"
         }
+    },
+    "i18nlabel":{
+        "zh":"Chinese",
+        "en":"English",
+        "de":"German"
     }
 }

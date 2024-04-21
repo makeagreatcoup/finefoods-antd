@@ -32,6 +32,7 @@ import { useConfigProvider } from "../../context";
 import { IconMoon, IconSun } from "../../components/icons";
 import { IOrder, IStore, ICourier, IIdentity } from "../../interfaces";
 import { HeaderTitle } from "./styled";
+import React from "react";
 
 const { Header: AntdHeader } = AntdLayout;
 const { useToken } = theme;
@@ -170,7 +171,11 @@ export const Header: React.FC = () => {
         refetchCouriers();
         refetchStores();
     }, [value]);
-
+    const languageTable: { [key: string]: string } = {
+        en: t('i18nlabel.en'),
+        de: t('i18nlabel.de'),
+        zh: t('i18nlabel.zh'),
+      };
     const menuItems: MenuProps["items"] = [...(i18n.languages || [])]
         .sort()
         .map((lang: string) => ({
@@ -181,7 +186,7 @@ export const Header: React.FC = () => {
                     <Avatar size={16} src={`/images/flags/${lang}.svg`} />
                 </span>
             ),
-            label: lang === "en" ? "English" : "German",
+            label: languageTable[lang] || t('i18nlabel.en'),
         }));
 
     return (
@@ -258,9 +263,7 @@ export const Header: React.FC = () => {
                                                 : "none",
                                         }}
                                     >
-                                        {currentLocale === "en"
-                                            ? "English"
-                                            : "German"}
+                                        {languageTable[currentLocale!] || t('i18nlabel.en')}
                                         <DownOutlined
                                             style={{
                                                 fontSize: "12px",

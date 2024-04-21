@@ -1,0 +1,401 @@
+{
+    "pages": {
+        "login": {
+            "title": "登录您的账户",
+            "signin": "登录",
+            "signup": "注册",
+            "divider": "或",
+            "fields": {
+                "email": "邮箱",
+                "password": "密码"
+            },
+            "errors": {
+                "validEmail": "无效的邮箱地址"
+            },
+            "buttons": {
+                "submit": "登录",
+                "forgotPassword": "忘记密码？",
+                "noAccount": "还没有账户？",
+                "rememberMe": "记住我"
+            }
+        },
+        "forgotPassword": {
+            "title": "忘记密码？",
+            "fields": {
+                "email": "邮箱"
+            },
+            "errors": {
+                "validEmail": "无效的邮箱地址"
+            },
+            "buttons": {
+                "submit": "发送重置指南"
+            }
+        },
+        "register": {
+            "title": "注册您的账户",
+            "fields": {
+                "email": "邮箱",
+                "password": "密码"
+            },
+            "errors": {
+                "validEmail": "无效的邮箱地址"
+            },
+            "buttons": {
+                "submit": "注册",
+                "haveAccount": "已有账户？"
+            }
+        },
+        "updatePassword": {
+            "title": "更新密码",
+            "fields": {
+                "password": "新密码",
+                "confirmPassword": "确认新密码"
+            },
+            "errors": {
+                "confirmPasswordNotMatch": "密码不匹配"
+            },
+            "buttons": {
+                "submit": "更新"
+            }
+        },
+        "error": {
+            "info": "您可能忘记在{{resource}}资源中添加{{action}}组件。",
+            "404": "抱歉，您访问的页面不存在。",
+            "resource404": "您确定已创建{{resource}}资源吗？",
+            "backHome": "返回首页"
+        }
+    },
+    "actions": {
+        "list": "列表",
+        "create": "创建",
+        "edit": "编辑",
+        "show": "查看"
+    },
+    "buttons": {
+        "add": "添加",
+        "create": "创建",
+        "save": "保存",
+        "logout": "注销",
+        "delete": "删除",
+        "edit": "编辑",
+        "cancel": "取消",
+        "confirm": "确定吗？",
+        "filter": "筛选",
+        "clear": "清除",
+        "refresh": "刷新",
+        "show": "显示",
+        "undo": "撤销",
+        "import": "导入",
+        "export": "导出",
+        "clone": "克隆",
+        "accept": "接受",
+        "acceptAll": "全部接受",
+        "reject": "拒绝",
+        "rejectAll": "全部拒绝",
+        "nextStep": "下一步",
+        "previousStep": "上一步"
+    },
+    "loading": "加载中",
+    "tags": {
+        "clone": "克隆"
+    },
+    "table": {
+        "actions": "操作"
+    },
+    "search": {
+        "placeholder": "按商店ID、电子邮件、关键字搜索",
+        "more": "更多"
+    },
+    "status": {
+        "enable": "启用",
+        "disable": "禁用"
+    },
+    "warnWhenUnsavedChanges": "您确定要离开吗？您有未保存的更改。",
+    "notifications": {
+        "success": "成功",
+        "error": "错误（状态码：{{statusCode}}）",
+        "undoable": "您有{{seconds}}秒可以撤销",
+        "createSuccess": "成功创建{{resource}}",
+        "createError": "创建{{resource}}时出错（状态码：{{statusCode}}）",
+        "deleteSuccess": "成功删除{{resource}}",
+        "deleteError": "删除{{resource}}时出错（状态码：{{statusCode}}）",
+        "editSuccess": "成功编辑{{resource}}",
+        "editError": "编辑{{resource}}时出错（状态码：{{statusCode}}）",
+        "importProgress": "正在导入：{{processed}}/{{total}}"
+    },
+    "categories": {
+        "categories": "分类",
+        "titles": {
+            "list": "分类"
+        },
+        "fields": {
+            "id": "ID",
+            "title": "标题",
+            "isActive": "激活"
+        }
+    },
+    "couriers": {
+        "couriers": "快递员",
+        "titles": {
+            "create": "创建快递员",
+            "list": "快递员",
+            "edit": "编辑快递员"
+        },
+        "fields": {
+            "id": "ID",
+            "avatar": {
+                "label": "头像",
+                "description": "点击或拖动头像图片到此区域进行上传。"
+            },
+            "name": "名字",
+            "surname": "姓氏",
+            "gender": {
+                "label": "性别",
+                "male": "男",
+                "female": "女"
+            },
+            "gsm": "电话",
+            "email": "电子邮件",
+            "address": "地址",
+            "createdAt": "创建时间",
+            "isActive": "是否激活",
+            "images": {
+                "label": "图片",
+                "description": "添加用户图片",
+                "validation": "必须为480x480像素"
+            },
+            "store": "商店",
+            "vehicle": "车辆",
+            "accountNumber": "账号"
+        },
+        "steps": {
+            "content": "内容",
+            "relations": "关系"
+        }
+    },
+    "dashboard": {
+        "title": "仪表盘",
+        "deliveryMap": {
+            "title": "配送地图"
+        },
+        "orders": {
+            "title": "订单"
+        },
+        "totalSales": {
+            "title": "总销售额"
+        },
+        "dailyRevenue": {
+            "title": "每日收入"
+        },
+        "dailyOrders": {
+            "title": "每日订单"
+        },
+        "newCustomers": {
+            "title": "新客户"
+        },
+        "timeline": {
+            "title": "时间线",
+            "orderStatuses": {
+                "pending": "准备订单",
+                "ready": "订单已准备",
+                "on the way": "订单正在配送中",
+                "delivered": "订单已送达",
+                "cancelled": "订单已取消"
+            }
+        },
+        "recentOrders": {
+            "title": "最近订单"
+        },
+        "trendingMenus": {
+            "title": "每日热门菜单"
+        }
+    },
+    "enum": {
+        "orderStatuses": {
+            "Pending": "待处理",
+            "Ready": "准备好",
+            "On The Way": "配送中",
+            "Delivered": "已送达",
+            "Cancelled": "已取消"
+        }
+    },
+    "orders": {
+        "orders": "订单",
+        "titles": {
+            "list": "订单",
+            "show": "查看订单"
+        },
+        "fields": {
+            "orderNumber": "订单编号",
+            "orderID": "订单ID",
+            "status": "状态",
+            "store": "商店",
+            "user": "用户",
+            "products": "产品",
+            "createdAt": "创建时间",
+            "amount": "金额",
+            "itemsAmount": "{{amount}}件商品"
+        },
+        "filter": {
+            "title": "筛选",
+            "search": {
+                "label": "搜索",
+                "placeholder": "订单编号、用户等"
+            },
+            "status": {
+                "label": "状态",
+                "placeholder": "订单状态"
+            },
+            "store": {
+                "label": "商店",
+                "placeholder": "搜索商店"
+            },
+            "user": {
+                "label": "用户",
+                "placeholder": "搜索用户"
+            },
+            "createdAt": {
+                "label": "创建时间"
+            },
+            "submit": "筛选"
+        },
+        "courier": {
+            "deliveryTime": "配送时间",
+            "phone": "电话"
+        },
+        "deliverables": {
+            "deliverables": "交付物",
+            "fields": {
+                "items": "商品",
+                "quantity": "数量",
+                "price": "价格",
+                "total": "总计"
+            },
+            "mainTotal": "总计"
+        }
+    },
+    "products": {
+        "products": "产品",
+        "titles": {
+            "list": "产品",
+            "create": "创建产品",
+            "edit": "编辑产品"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "名称",
+            "description": "描述",
+            "isActive": "激活",
+            "price": "价格",
+            "category": "分类",
+            "images": {
+                "label": "图片",
+                "description": "添加产品图片",
+                "validation": "必须为1080x1080像素"
+            },
+            "createdAt": "创建时间"
+        }
+    },
+    "reviews": {
+        "reviews": "评论",
+        "titles": {
+            "list": "评论"
+        },
+        "fields": {
+            "user": "用户",
+            "orderId": "订单ID",
+            "review": "评论",
+            "rating": "评分"
+        }
+    },
+    "stores": {
+        "stores": "商店",
+        "titles": {
+            "create": "创建商店",
+            "edit": "编辑商店",
+            "list": "商店",
+            "show": "查看商店"
+        },
+        "fields": {
+            "id": "商店ID",
+            "title": "标题",
+            "isActive": "激活",
+            "createdAt": "创建时间",
+            "address": "地址",
+            "email": "电子邮件",
+            "gsm": "电话"
+        },
+        "buttons": {
+            "editProducts": "编辑产品",
+            "addProduct": "添加产品",
+            "outOfStock": "缺货",
+            "edit": "编辑产品"
+        },
+        "selectLocation": "在地图上选择商店位置",
+        "storeProducts": "商店产品",
+        "tagFilterDescription": "使用标签筛选搜索结果",
+        "all": "全部",
+        "productSearch": "产品搜索"
+    },
+    "users": {
+        "users": "用户",
+        "titles": {
+            "edit": "编辑用户",
+            "list": "用户",
+            "show": "用户详情"
+        },
+        "fields": {
+            "id": "ID",
+            "avatar": {
+                "label": "头像",
+                "description": "点击或拖动头像图片到此区域进行上传。"
+            },
+            "firstName": "名字",
+            "lastName": "姓氏",
+            "gender": {
+                "label": "性别",
+                "Male": "男",
+                "Female": "女"
+            },
+            "gsm": "手机号码",
+            "createdAt": "创建时间",
+            "isActive": {
+                "label": "是否激活",
+                "true": "是",
+                "false": "否"
+            }
+        },
+        "filter": {
+            "title": "筛选",
+            "search": {
+                "label": "搜索",
+                "placeholder": "名字、姓氏、手机号码等"
+            },
+            "createdAt": {
+                "label": "创建时间"
+            },
+            "gender": {
+                "label": "性别",
+                "placeholder": "性别",
+                "male": "男",
+                "female": "女"
+            },
+            "isActive": {
+                "label": "激活状态",
+                "placeholder": "激活状态",
+                "true": "是",
+                "false": "否"
+            },
+            "submit": "筛选"
+        },
+        "addresses": {
+            "addresses": "地址",
+            "address": "地址"
+        }
+    },
+    "i18nlabel":{
+        "zh":"中文",
+        "en":"英文",
+        "de":"德语"
+    }
+}

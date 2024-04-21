@@ -2,9 +2,9 @@ import React from "react";
 import { Authenticated, GitHubBanner, Refine } from "@refinedev/core";
 import { RefineKbarProvider } from "@refinedev/kbar";
 import {
-    notificationProvider,
     ThemedLayoutV2,
     ErrorComponent,
+    useNotificationProvider,
 } from "@refinedev/antd";
 import routerProvider, {
     CatchAllNavigate,
@@ -60,7 +60,6 @@ const App: React.FC = () => {
 
     return (
         <BrowserRouter>
-            <GitHubBanner />
             <ConfigProvider>
                 <RefineKbarProvider>
                     <Refine
@@ -72,7 +71,7 @@ const App: React.FC = () => {
                             syncWithLocation: true,
                             warnWhenUnsavedChanges: true,
                         }}
-                        notificationProvider={notificationProvider}
+                        notificationProvider={useNotificationProvider}
                         resources={[
                             {
                                 name: "dashboard",

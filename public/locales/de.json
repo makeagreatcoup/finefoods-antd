@@ -389,5 +389,10 @@
             "addresses": "Adressen",
             "address": "Adresse"
         }
+    },
+    "i18nlabel":{
+        "zh":"Chinesisch",
+        "en":"Englisch",
+        "de":"Deutsch"
     }
 }

@@ -137,7 +137,7 @@ export const CategoryList: React.FC<IResourceComponentsProps> = () => {
                             }
                             return <BooleanField value={value} />;
                         }}
-                    />
+                    />SaveButton
                     <Table.Column<ICategory>
                         title={t("table.actions")}
                         dataIndex="actions"

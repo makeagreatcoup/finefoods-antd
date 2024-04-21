@@ -25,6 +25,7 @@ import {
 } from "../../components/product";
 import { IStore, IProduct } from "../../interfaces";
 import { StyledStoreProducts } from "./styled";
+import React from "react";
 
 const { Text } = Typography;
 
@@ -129,7 +130,7 @@ export const StoreProducts: React.FC<StoreProductsProps> = ({
                 {...modalProps}
                 width={1000}
                 footer={null}
-                bodyStyle={{ minHeight: "650px" }}
+                styles={{body:{minHeight: '650px'}}}
             >
                 <Form
                     {...searchFormProps}
