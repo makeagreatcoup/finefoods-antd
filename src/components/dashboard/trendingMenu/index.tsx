@@ -1,7 +1,7 @@
 import { NumberField, useSimpleList } from "@refinedev/antd";
 import { Typography, Avatar, Space, List as AntdList } from "antd";
 import { Container, AvatarWrapper, AvatarCircle, TextWrapper } from "./styled";
-
+import React from "react";
 import { IOrder } from "../../../interfaces";
 
 const { Text } = Typography;

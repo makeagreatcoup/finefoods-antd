@@ -1,8 +1,7 @@
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { useApiUrl, useCustom, useTranslate } from "@refinedev/core";
 import { ConfigProvider, theme, Typography } from "antd";
-import { Column } from "@ant-design/charts";
-import { ColumnConfig } from "@ant-design/plots/lib/components/column";
+import { Column, ColumnConfig } from "@ant-design/charts";
 
 import { IncreaseIcon, DecreaseIcon } from "../../../components/icons";
 

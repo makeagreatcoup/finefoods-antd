@@ -1,5 +1,6 @@
 import { useNavigation, useTranslate } from "@refinedev/core";
 import { useTable } from "@refinedev/antd";
+import React from "react";
 import { Typography, Table, Avatar, Space, Tag } from "antd";
 import {
     RecentOrdersColumn,

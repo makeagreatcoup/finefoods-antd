@@ -1,9 +1,8 @@
-import { useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import { useApiUrl, useCustom, useTranslate } from "@refinedev/core";
 import { NumberField } from "@refinedev/antd";
 import { Typography } from "antd";
-import { Line } from "@ant-design/charts";
-import { LineConfig } from "@ant-design/plots/lib/components/line";
+import { Line, LineConfig } from "@ant-design/charts";
 import dayjs, { Dayjs } from "dayjs";
 
 import { IncreaseIcon, DecreaseIcon } from "../../../components/icons";
